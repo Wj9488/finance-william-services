@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import Nav from '@/Components/Nav'
+import Footer from '@/Components/Footer'
 import './globals.css'
 
 import localFont from "next/font/local"
 
-const Telegraf = localFont({ 
-  src: "./Fonts/Telegraf.otf",
+const NeueMontreal = localFont({ 
+  src: "./Fonts/NeueMontreal-Medium.otf",
+  display: "swap"
 })
 
 export const metadata: Metadata = {
@@ -20,7 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={Telegraf.className}>{children}</body>
+      <body className={`${NeueMontreal.className} mx-4 text-[#000] bg-[#fafafa] font-medium text-lg uppercase`}>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
