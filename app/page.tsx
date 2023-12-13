@@ -120,7 +120,7 @@ export default function Home() {
             pageSubheading="All Finance Equations"
           />
           <GenericPageWrapper>
-            <ul className="flex gap-2 lg:my-0 my-[5rem]">
+            <ul className="lg:hidden flex gap-2 lg:my-0 my-[5rem]">
               <li><Link className="hover:opacity-50 transition-all duration-200" href={"/about"}>About</Link>{" "},{" "}<Link className="hover:opacity-50 transition-all duration-200" href={"/contact"}>Contact</Link></li>
             </ul>
             <div>
@@ -133,7 +133,7 @@ export default function Home() {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
-            <div className="my-[5rem]">
+            <div className="my-[5rem] lg:my-0">
               <div>
                 {filteredWeeks.length > 0 ? (
                   filteredWeeks.map((week, weekIndex) => (

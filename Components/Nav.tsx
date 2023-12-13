@@ -70,15 +70,6 @@ const Nav: React.FC = () => {
     return () => clearInterval(timer);
   }, []);
 
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeTillExam());
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  });
-
   const countdownDisplay = timeLeft ? (
     <div>
       {timeLeft.days}
@@ -100,7 +91,7 @@ const Nav: React.FC = () => {
     return `${twelveHour}:${formattedMinutes}${ampm}`;
   }
   return (
-    <nav className='fixed lg:top-2 lg:right-4 bg-[#fafafa] mt-2 py-1'>
+    <nav className='fixed lg:top-2 lg:right-4 bg-[#fafafa] mt-2 lg:mt-0 lg:py-0 py-1'>
       <div className="flex items-center justify-around gap-2">
         <div className='flex gap-1'>EXAM IN:{" "}{countdownDisplay}{" "} DAYS</div>
           <Clock

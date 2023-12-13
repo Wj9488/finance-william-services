@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ pageHeading, pageSubheading }) => {
     }, [pageHeading]);
 
     return (
-        <header className='lg:fixed lg:left-4 lg:top-2 mt-12 bg-[#fafafa]'>
+        <header className='lg:fixed lg:left-4 lg:top-2 mt-12 lg:mt-0 bg-[#fafafa]'>
             <h1 className='uppercase text-6xl lg:text-7xl'>{animatedHeading}</h1>
             <h2 className='uppercase'>{pageSubheading}</h2>
         </header>
