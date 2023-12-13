@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${NeueMontreal.className} mx-4 text-[#000] bg-[#fafafa] font-medium text-lg uppercase`}>
+      <body className={`${NeueMontreal.className} mx-4 text-[#3a0ca3] bg-[#fafafa] font-medium text-base lg:text-lg uppercase`}>
         <Nav />
         {children}
         <Footer />

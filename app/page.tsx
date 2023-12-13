@@ -127,7 +127,7 @@ export default function Home() {
               <p>FIND AN EQUATION</p>
               <input
                 type="text"
-                className="outline-none bg-transparent uppercase placeholder:opacity-35"
+                className="outline-none bg-transparent uppercaseplaceholder-[#3a0ca3] placeholder:opacity-35 text-[#390ca376]"
                 placeholder="TYPE HERE..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}

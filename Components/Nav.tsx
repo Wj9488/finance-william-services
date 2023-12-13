@@ -29,7 +29,7 @@ const Clock: React.FC<{ hours: number; minutes: number }> = ({
         y1="9"
         x2="9"
         y2="4"
-        stroke="#000"
+        stroke="#3a0ca3"
         strokeWidth="1"
         transform={`rotate(${hourRotation} 9 9)`}
       />
@@ -38,7 +38,7 @@ const Clock: React.FC<{ hours: number; minutes: number }> = ({
         y1="9"
         x2="9"
         y2="2"
-        stroke="#000"
+        stroke="#3a0ca3"
         strokeWidth="1"
         transform={`rotate(${minuteRotation} 9 9)`}
       />
@@ -58,7 +58,7 @@ const calculateTimeTillExam = (): TimeLeft => {
   return null;
 };
 
-const Nav: React.FC = () => {
+const Nav = () => {
   const [GBtime, setGBTime] = useState(getCurrentTime("en-GB"));
   const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeTillExam());
 
@@ -68,6 +68,15 @@ const Nav: React.FC = () => {
     }, 1000);
 
     return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setGBTime(getCurrentTime("en-GB"));
+    }, 1000); // Update every second
+
+    // clear the interval when the component is unmounted
+    return () => clearInterval(interval);
   }, []);
 
   const countdownDisplay = timeLeft ? (
