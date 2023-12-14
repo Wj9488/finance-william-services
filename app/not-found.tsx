@@ -11,7 +11,7 @@ const ErrorPage = () => {
         <Header pageHeading="PAGE NOT FOUND" pageSubheading="BEA3008" />
         <GenericPageWrapper>
             <BackButton />
-            <p className="w-1/2">THIS PAGE DOES NOT EXIST, PLEASE HEAD BACK TO THE HOME BACK BY CLICKING THE BACK BUTTON.</p>
+            <p className="w-1/2">This page does not exist, please use the back button to go to the home page.</p>
             <SideNav />
         </GenericPageWrapper>
     </main>

@@ -25,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({ pageHeading, pageSubheading }) => {
                 return setTimeout(() => {
                     tempHeading[index] = pageHeading[index];
                     setAnimatedHeading(tempHeading.join(''));
-                }, index * 50); // Delay each character animation
+                }, index * 45); // Delay each character animation
             });
 
             // Cleanup timeouts on unmount
@@ -42,8 +42,8 @@ const Header: React.FC<HeaderProps> = ({ pageHeading, pageSubheading }) => {
 
     return (
         <header className='lg:fixed lg:left-4 lg:top-2 mt-[5rem] lg:mt-0 bg-[#fafafa]'>
-            <h1 className='uppercase text-6xl lg:text-8xl'>{animatedHeading}</h1>
-            <h2 className='uppercase'>{pageSubheading}</h2>
+            <h1 className='uppercase text-5xl lg:text-7xl'>{animatedHeading}</h1>
+            <h2 className=''>{pageSubheading}</h2>
         </header>
     );
 };

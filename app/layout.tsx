@@ -11,8 +11,11 @@ const NeueMontreal = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'BEA3008',
+  title: 'Finance For Managers',
   description: 'Relevant Finance Equations',
+  icons: {
+    icon: '/icon.png',
+  },
 }
 
 export default function RootLayout({
@@ -22,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${NeueMontreal.className} mx-4 text-[#3a0ca3] bg-[#fafafa] font-medium text-base lg:text-lg uppercase`}>
+      <body className={`${NeueMontreal.className} lg:mx-4 mx-2 text-[#3a0ca3] bg-[#fafafa] font-medium text-base lg:text-lg `}>
         <Nav />
         {children}
         <Footer />

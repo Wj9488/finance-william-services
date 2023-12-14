@@ -93,16 +93,16 @@ const Nav = () => {
     }
     const hours = date.getHours();
     const minutes = date.getMinutes();
-    const ampm = hours >= 12 ? "PM" : "AM";
+    const ampm = hours >= 12 ? "pm" : "am";
     const twelveHour = hours > 12 ? hours - 12 : hours;
     const formattedMinutes = minutes.toString().padStart(2, "0");
 
     return `${twelveHour}:${formattedMinutes}${ampm}`;
   }
   return (
-    <nav className='fixed top-0 lg:top-2 lg:right-4 bg-[#fafafa] pr-2 lg:mt-0 lg:py-0 py-1'>
+    <nav className='z-10 fixed top-0 lg:top-2 lg:right-4 bg-[#fafafa] pr-2 lg:mt-0 lg:py-0 py-1'>
       <div className="flex items-center justify-around gap-2">
-        <div className='flex gap-1'>EXAM IN:{" "}{countdownDisplay}{" "} DAYS</div>
+        <div className='flex gap-1'>Exam in:{" "}{countdownDisplay}{" "} days</div>
           <Clock
             hours={new Date().getHours()}
             minutes={new Date().getMinutes()}

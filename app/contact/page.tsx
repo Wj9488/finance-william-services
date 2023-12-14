@@ -4,6 +4,7 @@ import Header from "@/Components/Reusable/Header";
 import Link from "next/link";
 import Transition from "@/Components/utils/Transition";
 import GenericPageWrapper from "@/Components/Reusable/GenericPageWrapper";
+import BackButton from "@/Components/Reusable/BackButton";
 
 const ContactPage = () => {
   return (
@@ -13,21 +14,15 @@ const ContactPage = () => {
           <Header pageHeading="CONTACT ME" pageSubheading="BEA3008" />
           <GenericPageWrapper>
             <div>
-              <div className="flex gap-1 items-center hover:opacity-50 transition-all duration-200">
-                <svg
-                  width="16"
-                  height="14"
-                  viewBox="0 0 16 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.60085 13.2628L0.974432 6.63636L7.60085 0.00994253L8.87926 1.27415L4.44034 5.71307H15.5909V7.55966H4.44034L8.87926 11.9915L7.60085 13.2628Z"
-                    fill="black"
-                  />
-                </svg>
-                <Link href={"/"}>BACK</Link>
-              </div>
+              <BackButton />
+            </div>
+            <div className="lg:w-1/2 lg:my-0 my-[5rem]">
+              <p>
+                Spotted an error, mistake or just have a general question about the website? 
+                <br />
+                <br />
+                <Link className="underline" target="_blank" href={"https://www.linkedin.com/in/william-jones-450715251/"}>Contact me on LinkedIn</Link>
+              </p>
             </div>
             <div className="">
               <Link

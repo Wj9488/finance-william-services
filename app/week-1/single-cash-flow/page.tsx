@@ -13,31 +13,31 @@ const SingleCashFlow = () => {
     <>
     <Transition>
         <main>
-            <Header pageHeading="Ordinary Annuity" pageSubheading="Week 1 - Annuities"/>
+            <Header pageHeading="Single Cash Flow" pageSubheading="Week 1"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
                         <EquationPageBody 
                             equationExplanation="
-                            Annuities are at equal periods and are only for a fixed number of periods.
-                            <br/>
-                            <br/>
-                            An Ordinary Annuity starts from time 1. 
+                            A single cashflow can be thought of as one lump sum 
+                            that you will recieve at a given point in time. 
                             <br/>
                             <br/>
                             FV = Future Value 
                             <br/>
-                            CF<sub>1</sub> = Cash flow at time 1
+                            CF<sub>0</sub> = Cash flow at time 0
                             <br/>
                             r = Interest rate
+                            <br/>
+                            m = Frequency of compounding within 1 year (If compounding monthly, m becomes 12 for e.g)
                             <br/>
                             n = Number of compounding years or periods
                             <br/>
                             <br/>
-                            Future Value of an ordinary annuity equation: 
+                            Compounding more frequently equation: 
                             <br/>
                             <br/>
-                            <code>FV = CF<sub>1</sub> x (1 + r)<sup>n</sup> - 1 / r </code>
+                            <code>FV = CF<sub>0</sub> x (1 + r / m) <sup>m x n</sup></code>
                             "
                         />
                     </EquationSectionWrapper>

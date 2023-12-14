@@ -3,10 +3,11 @@ import Link from "next/link"
 const BackButton = () => {
   return (
     <div>
+        <Link href={"/"}>
         <div className="flex gap-1 items-center hover:opacity-50 transition-all duration-200">
         <svg
-            width="16"
-            height="14"
+            width="14"
+            height="12"
             viewBox="0 0 16 14"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -16,8 +17,9 @@ const BackButton = () => {
             fill="#3a0ca3"
             />
         </svg>
-        <Link href={"/"}>BACK</Link>
+        All Equations
         </div>
+        </Link>
     </div>
   )
 }

@@ -13,7 +13,7 @@ const SingleCashFlow = () => {
     <>
     <Transition>
         <main>
-            <Header pageHeading="Ordinary Annuity" pageSubheading="Week 1 - Annuities"/>
+            <Header pageHeading="Annuity Due" pageSubheading="Week 1 - Annuities"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
@@ -22,12 +22,12 @@ const SingleCashFlow = () => {
                             Annuities are at equal periods and are only for a fixed number of periods.
                             <br/>
                             <br/>
-                            An Ordinary Annuity starts from time 1. 
+                            An Annuity Due starts from time 0. 
                             <br/>
                             <br/>
                             FV = Future Value 
                             <br/>
-                            CF<sub>1</sub> = Cash flow at time 1
+                            CF<sub>0</sub> = Cash flow at time 0
                             <br/>
                             r = Interest rate
                             <br/>
@@ -37,7 +37,7 @@ const SingleCashFlow = () => {
                             Future Value of an ordinary annuity equation: 
                             <br/>
                             <br/>
-                            <code>FV = CF<sub>1</sub> x (1 + r)<sup>n</sup> - 1 / r </code>
+                            <code>FV = CF<sub>0</sub> x <sup>(1 + r)</sup> (1 + r)<sup>n</sup>- 1 / r </code>
                             "
                         />
                     </EquationSectionWrapper>
