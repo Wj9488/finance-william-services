@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+sup, sub {
+    z-index: -1;
+}
+
+
 .calc_input {
     outline: none;
     background: transparent;
@@ -30,4 +35,12 @@
 code {
     background-color: #ebebeb;
     padding: 2px;
+}
+
+.dark input {
+    color: #cae9ff;
+}
+.dark code {
+    background-color: rgb(35, 35, 35);
+    padding: 4px;
 }

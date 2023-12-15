@@ -21,27 +21,27 @@ type EquationList = {
 const weekOneEquations: EquationList[] = [
   {
     equationName: "Single Cashflow",
-    equationLink: "/week-1/single-cash-flow",
+    equationLink: "/week-1/single-cash-flow?pvdfh=true",
   },
   {
     equationName: "Ordinary Annuity",
-    equationLink: "/week-1/ordinary-annuity",
+    equationLink: "/week-1/ordinary-annuity?pvdfh=true",
   },
   {
     equationName: "Annuity Due",
-    equationLink: "/week-1/annuity-due",
+    equationLink: "/week-1/annuity-due?pvdfh=true",
   },
   {
     equationName: "Delayed Annuity",
-    equationLink: "/week-1/delayed-annuity?cl=true",
+    equationLink: "/week-1/delayed-annuity?pvdfh=true",
   },
   {
     equationName: "Growing Annuity",
-    equationLink: "/week-1/growing-annuity?cl=true",
+    equationLink: "/week-1/growing-annuity?pvdfh=true",
   },
   {
     equationName: "Ordinary Perpetuity",
-    equationLink: "/week-1/ordinary-perpetuity?cl=true",
+    equationLink: "/week-1/ordinary-perpetuity",
   },
   {
     equationName: "Delayed Perpetuity",
@@ -193,7 +193,7 @@ export default function Home() {
               <p>Find an equation</p>
               <input
                 type="text"
-                className="outline-none bg-transparent placeholder:opacity-35 text-[#390ca376]"
+                className="outline-none bg-transparent placeholder:opacity-35 text-[#390ca376] dark:text-[#cae9ff]"
                 placeholder="Type here..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}

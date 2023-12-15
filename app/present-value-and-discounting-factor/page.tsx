@@ -8,53 +8,43 @@ import Header from "@/Components/Reusable/Header"
 import SideNav from "@/Components/Reusable/SideNav"
 import Transition from "@/Components/utils/Transition"
 
-const SingleCashFlow = () => {
+const DFPVPage = () => {
   return (
     <>
     <Transition>
         <main>
-            <Header pageHeading="Annuity Due" pageSubheading="Week 1 - Annuities"/>
+            <Header pageHeading="Present Value and Discounting Factor" pageSubheading="Fundamentals"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
                         <EquationPageBody 
                             equationExplanation="
-                            Annuities are at equal periods and are only for a fixed number of periods.
+                            The Present Value is used to bring a future cashflow or lump sum into the present.
                             <br/>
                             <br/>
-                            An Annuity Due starts from time 0. 
+                            A Discounting Factor is what is applied to get the present value of the cashflow.
+                            To find out the Present Value of something you need to use a Discounting Factor to find it. 
                             <br/>
                             <br/>
-                            This also means that the first payment of this annuity will already be at
-                            the present value.
+                            DF = Discounting Factor
+                            <br/>
+                            PV= Present Value
+                            <br/>
+                            r = Interest Rate
+                            <br/>
+                            n = Number of Periods
                             <br/>
                             <br/>
-                            FV = Future Value 
-                            <br/>
-                            CF<sub>0</sub> = Cash flow at time 0
-                            <br/>
-                            r = Interest rate
-                            <br/>
-                            n = Number of compounding years or periods
+                            Discounting Factor for a Single Cashflow:
                             <br/>
                             <br/>
-                            Future Value of an annuity due equation: 
+                            <code>DF = 1 / ( 1 + r )<sup>n</sup></code>  
                             <br/>
                             <br/>
-                            <code>FV = CF<sub>0</sub> x <sup>(1 + r)</sup> (1 + r)<sup>n</sup>- 1 / r </code>
-                            <br/>
-                            <br/>
-                            Discounting factor to find the present value of an Annuity Due
+                            Discounting Factor for an Annuity:
                             <br/>
                             <br/>
                             <code>DF = 1 / r [ 1 - 1 / ( 1 + r )<sup>n</sup> ]</code>
-                            <br/>
-                            <br/>
-                            The first cashflow is already at PV, so only cashflows from time 1 need to be discounted.
-                            <br/>
-                            <br/>
-                            To work out an Annuity Due, first apply the discounting factor to the cashflow at time 1. Then,
-                            add all the cashflows after time 1 up and then finally add the cashflow at time 0. 
                             "
                         />
                     </EquationSectionWrapper>
@@ -66,4 +56,4 @@ const SingleCashFlow = () => {
   )
 }
 
-export default SingleCashFlow
+export default DFPVPage

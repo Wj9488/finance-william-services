@@ -13,7 +13,7 @@ const SingleCashFlow = () => {
     <>
     <Transition>
         <main>
-            <Header pageHeading="Annuity Due" pageSubheading="Week 1 - Annuities"/>
+            <Header pageHeading="Ordinary Annuity" pageSubheading="Week 1 - Annuities"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
@@ -22,39 +22,44 @@ const SingleCashFlow = () => {
                             Annuities are at equal periods and are only for a fixed number of periods.
                             <br/>
                             <br/>
-                            An Annuity Due starts from time 0. 
+                            A Delayed Annuity starts beyond time 1. E.g at time 3.  
                             <br/>
                             <br/>
-                            This also means that the first payment of this annuity will already be at
-                            the present value.
+                            DF = Discounting Factor 
                             <br/>
-                            <br/>
-                            FV = Future Value 
-                            <br/>
-                            CF<sub>0</sub> = Cash flow at time 0
+                            CF<sub>2</sub> = Cash flow at time 2 (Could be any period)
                             <br/>
                             r = Interest rate
                             <br/>
                             n = Number of compounding years or periods
                             <br/>
                             <br/>
-                            Future Value of an annuity due equation: 
-                            <br/>
-                            <br/>
-                            <code>FV = CF<sub>0</sub> x <sup>(1 + r)</sup> (1 + r)<sup>n</sup>- 1 / r </code>
-                            <br/>
-                            <br/>
-                            Discounting factor to find the present value of an Annuity Due
+                            Discounting Factor to find the Present Value of an Delayed Annuity
                             <br/>
                             <br/>
                             <code>DF = 1 / r [ 1 - 1 / ( 1 + r )<sup>n</sup> ]</code>
                             <br/>
                             <br/>
-                            The first cashflow is already at PV, so only cashflows from time 1 need to be discounted.
+                            To find the value of a Delayed Annuity, we turn it into an Ordinary Annuity. 
                             <br/>
                             <br/>
-                            To work out an Annuity Due, first apply the discounting factor to the cashflow at time 1. Then,
-                            add all the cashflows after time 1 up and then finally add the cashflow at time 0. 
+                            If a cashflow starts at time 2 for example, we first use the discounting factor above
+                            to find its value at time 1. 
+                            <br/>
+                            <br/>
+                            <code>Value at time one = CF<sub>2</sub> x DF Above</code>
+                            <br/>
+                            <br/>
+                            Then, we use the single cashflow Discounting Factor to bring the time 1 value to the Present Value. 
+                            <br/>
+                            <br/>
+                            <code>DF = 1 / ( 1 + r )<sup>n</sup></code>  
+                            <br/>
+                            <br/>
+                            Therefore: 
+                            <br/>
+                            <br/>
+                            <code>PV = Value at time one x 1 / ( 1 + r )<sup>n</sup></code>  
                             "
                         />
                     </EquationSectionWrapper>

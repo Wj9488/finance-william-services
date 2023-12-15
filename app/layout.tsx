@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${NeueMontreal.className} lg:mx-4 mx-2 text-[#3a0ca3] bg-[#fafafa] font-medium text-base lg:text-lg `}>
+      <body className={`${NeueMontreal.className} transition-colors duration-200 ease-in-out dark:bg-[#070707] lg:mx-4 mx-2 text-[#3a0ca3] dark:text-[#cae9ff] bg-[#fafafa] font-medium text-base lg:text-lg `}>
         <Nav />
         {children}
         <Footer />

@@ -25,6 +25,10 @@ const SingleCashFlow = () => {
                             <br/>
                             FV = Future Value 
                             <br/>
+                            PV = Present Value 
+                            <br/>
+                            DF = Discounting Factor 
+                            <br/>
                             CF<sub>0</sub> = Cash flow at time 0
                             <br/>
                             r = Interest rate
@@ -38,6 +42,17 @@ const SingleCashFlow = () => {
                             <br/>
                             <br/>
                             <code>FV = CF<sub>0</sub> x (1 + r / m) <sup>m x n</sup></code>
+                            <br/>
+                            <br/>
+                            Present Value of a Single Cash Flow:
+                            <br/>
+                            <br/>
+                            <code>PV = FV / (1 + r)<sup>n</sup></code>
+                            <br/>
+                            <br/>
+                            <code>DF = FV / (1 + r)<sup>n</sup></code>
+                            <br/>
+                            <br/>
                             "
                         />
                     </EquationSectionWrapper>

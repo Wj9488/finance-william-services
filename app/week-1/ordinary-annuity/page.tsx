@@ -38,6 +38,12 @@ const SingleCashFlow = () => {
                             <br/>
                             <br/>
                             <code>FV = CF<sub>1</sub> x (1 + r)<sup>n</sup> - 1 / r </code>
+                            <br/>
+                            <br/>
+                            Discounting Factor to find the Present Value of an Ordinary Annuity
+                            <br/>
+                            <br/>
+                            <code>DF = 1 / r [ 1 - 1 / ( 1 + r )<sup>n</sup> ]</code>
                             "
                         />
                     </EquationSectionWrapper>
