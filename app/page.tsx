@@ -20,80 +20,56 @@ type EquationList = {
 
 const weekOneEquations: EquationList[] = [
   {
-    equationName: "Single Cashflow",
-    equationLink: "/week-1/single-cash-flow?pvdfh=true",
+    equationName: "Wealth Maximisation",
+    equationLink: "/week-1/wealth-maximisation?osh=true",
   },
   {
-    equationName: "Ordinary Annuity",
-    equationLink: "/week-1/ordinary-annuity?pvdfh=true",
+    equationName: "Shareholder Vs Stakeholder View",
+    equationLink: "/week-1/shareholder-vs-stakeholder",
   },
   {
-    equationName: "Annuity Due",
-    equationLink: "/week-1/annuity-due?pvdfh=true",
+    equationName: "Agency Relationships",
+    equationLink: "/week-1/agency-relationships",
   },
   {
-    equationName: "Delayed Annuity",
-    equationLink: "/week-1/delayed-annuity?pvdfh=true",
+    equationName: "Time Value of Money",
+    equationLink: "/week-1/tvm",
   },
   {
-    equationName: "Growing Annuity",
-    equationLink: "/week-1/growing-annuity?pvdfh=true",
-  },
-  {
-    equationName: "Ordinary Perpetuity",
-    equationLink: "/week-1/ordinary-perpetuity",
-  },
-  {
-    equationName: "Delayed Perpetuity",
-    equationLink: "/week-1/delayed-perpetuity?cl=true",
-  },
-  {
-    equationName: "Growing Perpetuity",
-    equationLink: "/week-1/growing-perpetuity?cl=true",
-  },
-  {
-    equationName: "Compounding vs Discounting",
-    equationLink: "/week-1/compounding-vs-discounting?cl=true",
-  },
-  {
-    equationName: "Future Value Factor (FV - Compounding)",
-    equationLink: "/week-1/future-value-factor?cl=true",
-  },
-  {
-    equationName: "Present Value Factor (PV - Discounting)",
-    equationLink: "/week-1/present-value-factor?cl=true",
+    equationName: "Cashflows, Annuities and Perpetuities",
+    equationLink: "/week-1/cashflows-annuity-perpetuity",
   },
 ];
 const weekTwoEquations: EquationList[] = [
   {
-    equationName: "Ordinary Annuity (Compounding more frequently)",
-    equationLink: "/week-1/compounding-interest",
+    equationName: "Interest Rates",
+    equationLink: "/week-2/interest-rates",
   },
   {
-    equationName: "Optimal Order Quantity",
-    equationLink: "/week-1/ordinary-annuity",
+    equationName: "The investment trade-off",
+    equationLink: "/week-2/investment-trade-off",
   },
   {
-    equationName: "Time Value of Money (With stock out)",
-    equationLink: "/week-1/perpetual-annuity",
+    equationName: "Payback Period (PB)",
+    equationLink: "/week-2/investment-appraisal/pb",
   },
   {
-    equationName: "Markowitz Frontier",
-    equationLink: "/week-1/growing-annuity",
+    equationName: "Net Present Value (NPV)",
+    equationLink: "/week-2/investment-appraisal/npv",
   },
   {
-    equationName: "Incremental Static Regeneration",
-    equationLink: "/week-1/growing-annuity",
+    equationName: "Internal Rate of Return (IRR)",
+    equationLink: "/week-2/investment-appraisal/irr",
   },
 ];
 const weekThreeEquations: EquationList[] = [
   {
-    equationName: "Ordinary Annuity (Compounding more frequently)",
-    equationLink: "/week-1/compounding-interest",
+    equationName: "Working Capital",
+    equationLink: "/week-3/working-capital",
   },
   {
-    equationName: "Ordinary Annuity",
-    equationLink: "/week-1/ordinary-annuity",
+    equationName: "Operating Cycle and Cash Conversion Cycle",
+    equationLink: "/week-3/operating-cycle-and-cash-conversion-cycle",
   },
   {
     equationName: "Optimal Order Quantity (With stock out)",
@@ -148,7 +124,7 @@ export default function Home() {
         <main className="">
           <Header
             pageHeading="Finance For Managers"
-            pageSubheading="All Finance Equations"
+            pageSubheading="All Module Theory (Part B in the final exam)"
           />
           <GenericPageWrapper>
             <ul className="lg:hidden flex gap-2 lg:my-0 my-[5rem]">
@@ -190,7 +166,7 @@ export default function Home() {
               </Link>
             </ul>
             <div>
-              <p>Find an equation</p>
+              <p>Find Content</p>
               <input
                 type="text"
                 className="outline-none bg-transparent placeholder:opacity-35 text-[#390ca376] dark:text-[#cae9ff]"
@@ -199,7 +175,7 @@ export default function Home() {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
-            <div className="my-[5rem] lg:my-0">
+            <div className="mt-[5rem] lg:mt-0 mb-[5rem]">
               <div>
                 {filteredWeeks.length > 0 ? (
                   filteredWeeks.map((week, weekIndex) => (

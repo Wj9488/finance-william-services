@@ -8,38 +8,42 @@ import Header from "@/Components/Reusable/Header"
 import SideNav from "@/Components/Reusable/SideNav"
 import Transition from "@/Components/utils/Transition"
 
-const GrowingAnnuityPage = () => {
+const AgencyRelationships = () => {
   return (
     <>
     <Transition>
         <main>
-            <Header pageHeading="Growing Annuity" pageSubheading="Week 1 - Annuities"/>
+            <Header pageHeading="Time Value of Money" pageSubheading="Week 1"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
                         <EquationPageBody 
                             equationExplanation="
-                            Annuities are at equal periods and are only for a fixed number of periods.
+                            Money has a time value because money recieved
+                            today is worth more than the same amount recieved 
+                            in the future.
                             <br/>
                             <br/>
-                            A growing annuity starts from time 1. 
+                            There are three main reasons: 
                             <br/>
                             <br/>
-                            FV = Future Value 
+                            - Potential for earning interest on cash now.
                             <br/>
-                            CF<sub>1</sub> = Cash flow at time 1
+                            - Impact of inflation.
                             <br/>
-                            r = Interest rate
-                            <br/>
-                            n = Number of compounding years or periods
-                            <br/>
-                            g = Growth Rate
+                            - Effect of risk
                             <br/>
                             <br/>
-                            Future Value of a growing annuity equation: 
+                            Compounding and Discounting:
                             <br/>
                             <br/>
-                            <code>FV = CF<sub>1</sub> x ( (1 + r)<sup>n</sup> - (1 + g)<sup>n</sup> / r - g )</code>
+                            Discounting is used to calculate the present value of 
+                            future cashflows. 
+                            <br/>
+                            <br/>
+                            Compounding specifies how a given amount of money grows
+                            over time at a particular rate of interest. This will 
+                            work out the future values of current cashflows.
                             "
                         />
                     </EquationSectionWrapper>
@@ -51,4 +55,4 @@ const GrowingAnnuityPage = () => {
   )
 }
 
-export default GrowingAnnuityPage
+export default AgencyRelationships

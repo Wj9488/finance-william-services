@@ -7,11 +7,11 @@ import { useSearchParams } from "next/navigation";
 const SideNav = () => {
   const searchParams = useSearchParams();
   const requiresCalcLink = searchParams.get("cl");
-  const requiresDFPVHelp = searchParams.get("pvdfh")
+  const requiresShareHelp = searchParams.get("osh")
 
   return (
     <div>
-      <ul className="hidden lg:flex gap-2 lg:my-0 my-[5rem] lg:min-w-[21rem]">
+      <ul className="hidden lg:flex gap-2 lg:my-0 my-[5rem] ">
         <Link
           className="hover:opacity-50 transition-all duration-200 flex items-center gap-1"
           href={"/about"}
@@ -59,12 +59,12 @@ const SideNav = () => {
           Calculator
         </Link>
       )}
-      {requiresDFPVHelp && (
+      {requiresShareHelp && (
         <Link
           className="mt-[2.5rem] lg:mb-0 mb-[5rem] hover:opacity-50 transition-all duration-200 flex items-center gap-1"
-          href={"/present-value-and-discounting-factor"}
+          href={"/share-types"}
         >
-          Present Value and Discounting Factors
+          Share Types
           <svg
             width="20"
             height="18"

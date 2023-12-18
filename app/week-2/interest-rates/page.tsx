@@ -8,51 +8,45 @@ import Header from "@/Components/Reusable/Header"
 import SideNav from "@/Components/Reusable/SideNav"
 import Transition from "@/Components/utils/Transition"
 
-const SingleCashFlow = () => {
+const InterestRates = () => {
   return (
     <>
     <Transition>
         <main>
-            <Header pageHeading="Single Cash Flow" pageSubheading="Week 1"/>
+            <Header pageHeading="Interest Rates" pageSubheading="Week 2"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
                         <EquationPageBody 
                             equationExplanation="
-                            A single cashflow can be thought of as one lump sum 
-                            that you will recieve at a given point in time. 
+                            Think of an interest rate as the exchange rate 
+                            between points in time. 
                             <br/>
                             <br/>
-                            FV = Future Value 
-                            <br/>
-                            PV = Present Value 
-                            <br/>
-                            DF = Discounting Factor 
-                            <br/>
-                            CF<sub>0</sub> = Cash flow at time 0
-                            <br/>
-                            r = Interest rate
-                            <br/>
-                            m = Frequency of compounding within 1 year (If compounding monthly, m becomes 12 for e.g)
-                            <br/>
-                            n = Number of compounding years or periods
+                            An interest rate is also called: 
                             <br/>
                             <br/>
-                            Compounding more frequently equation: 
+                            - Discount Rate: when moving future values back to the present.
+                            <br/>
+                            - Rate of return: when looking for at an investment from the lenders POV.
+                            <br/>
+                            - Cost of Capital: from the borrower's perspective (e.g the cost of equity,
+                                cost of debt, weighted average cost of capital (WACC)). 
                             <br/>
                             <br/>
-                            <code>FV = CF<sub>0</sub> x (1 + r / m) <sup>m x n</sup></code>
+                            <mark>Components of Interest Rates</mark>
                             <br/>
                             <br/>
-                            Present Value of a Single Cash Flow:
+                            <mark>Pure time preference</mark>: Price of time (reward for giving up 
+                                consumation of cash today.)
                             <br/>
                             <br/>
-                            <code>PV = FV / (1 + r)<sup>n</sup></code>
+                            <mark>Risk Premium</mark>: Additional layer of from perspective of riskiness. It 
+                            is the risk/return trade-off.
                             <br/>
                             <br/>
-                            <code>DF = FV / (1 + r)<sup>n</sup></code>
-                            <br/>
-                            <br/>
+                            <mark>Inflation Premium</mark>: Compensation needed to offset the devaluation of money.
+                            Additional layer from the perspective of inflation.
                             "
                         />
                     </EquationSectionWrapper>
@@ -64,4 +58,4 @@ const SingleCashFlow = () => {
   )
 }
 
-export default SingleCashFlow
+export default InterestRates

@@ -8,53 +8,56 @@ import Header from "@/Components/Reusable/Header"
 import SideNav from "@/Components/Reusable/SideNav"
 import Transition from "@/Components/utils/Transition"
 
-const SingleCashFlow = () => {
+const ShareholderVsStakeholder = () => {
   return (
     <>
     <Transition>
         <main>
-            <Header pageHeading="Annuity Due" pageSubheading="Week 1 - Annuities"/>
+            <Header pageHeading="Shareholder Vs Stakeholder View" pageSubheading="Week 1"/>
             <GenericPageWrapper>
                 <BackButton />
                     <EquationSectionWrapper>
                         <EquationPageBody 
                             equationExplanation="
-                            Annuities are at equal periods and are only for a fixed number of periods.
+                            Typical stakeholders for an organisation in addition to
+                            shareholders would include: 
                             <br/>
                             <br/>
-                            An Annuity Due starts from time 0. 
+                            Employees, Suppliers, Customers, The Community etc.
                             <br/>
                             <br/>
-                            This also means that the first payment of this annuity will already be at
-                            the present value.
+                            Many argue that businesses must adopt a stakeholder view, 
+                            which involves: 
                             <br/>
                             <br/>
-                            FV = Future Value 
+                            - Balancing the competing claims of a wide range of stakeholders.
                             <br/>
-                            CF<sub>0</sub> = Cash flow at time 0
-                            <br/>
-                            r = Interest rate
-                            <br/>
-                            n = Number of compounding years or periods
+                            - Taking into account the broader economic and social responsibilities. 
                             <br/>
                             <br/>
-                            Future Value of an annuity due equation: 
+                            Studies show that corporations with good business ethics and good 
+                            corporate governance generally generate higher stock returns. 
                             <br/>
                             <br/>
-                            <code>FV = CF<sub>0</sub> x <sup>(1 + r)</sup> (1 + r)<sup>n</sup>- 1 / r </code>
+                            One Overriding Objective: 
                             <br/>
                             <br/>
-                            Discounting factor to find the present value of an Annuity Due
+                            Still, maximising shareholder wealth is the overriding objective for 
+                            most corporations.
                             <br/>
                             <br/>
-                            <code>DF = 1 / r [ 1 - 1 / ( 1 + r )<sup>n</sup> ]</code>
+                            By focusing on a single objective clear decisions can be made.
                             <br/>
                             <br/>
-                            The first cashflow is already at PV, so only cashflows from time 1 need to be discounted.
+                            This objective leads to the development of products that consumers need. E.g, new 
+                            jobs, technology and efficient services. 
                             <br/>
                             <br/>
-                            To work out an Annuity Due, first apply the discounting factor to the cashflow at time 1. Then,
-                            add all the cashflows after time 1 up and then finally add the cashflow at time 0. 
+                            Looking after shareholders does mean overlooking other stakeholders. 
+                            <br/>
+                            <br/>
+                            In BEA3008 we assume that the primary objective of a business is to maximise
+                            shareholder wealth. 
                             "
                         />
                     </EquationSectionWrapper>
@@ -66,4 +69,4 @@ const SingleCashFlow = () => {
   )
 }
 
-export default SingleCashFlow
+export default ShareholderVsStakeholder

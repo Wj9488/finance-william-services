@@ -18,7 +18,7 @@ const BackButton = () => {
             className="dark:fill-[#cae9ff]"
             />
         </svg>
-        All Equations
+        All Content
         </div>
         </Link>
     </div>

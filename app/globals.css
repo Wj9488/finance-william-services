@@ -6,6 +6,14 @@ sup, sub {
     z-index: -1;
 }
 
+mark{
+    background-color: #ebebeb;
+}
+
+.dark mark {
+    background-color: #424242;
+    color: #cae9ff;
+}
 
 .calc_input {
     outline: none;
