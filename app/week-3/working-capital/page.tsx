@@ -29,7 +29,10 @@ const WorkingCapital = () => {
                             duration such as short term financing and working capital management. 
                             <br/>
                             <br/>
-                            <mark>Working Capital (WCM) (Main Components)</mark>
+                            <mark>Working Capital (WCM or NWC) (Main Components)</mark>
+                            <br/>
+                            <br/>
+                            NWC = Net Working Capital
                             <br/>
                             <br/>
                             Short-term (Current) Assets: 

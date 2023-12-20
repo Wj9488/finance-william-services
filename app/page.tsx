@@ -72,32 +72,77 @@ const weekThreeEquations: EquationList[] = [
     equationLink: "/week-3/operating-cycle-and-cash-conversion-cycle",
   },
   {
-    equationName: "Optimal Order Quantity (With stock out)",
-    equationLink: "/week-1/perpetual-annuity",
+    equationName: "Inventory Management",
+    equationLink: "/week-3/inventory",
   },
   {
-    equationName: "Markowitz Frontier",
-    equationLink: "/week-1/growing-annuity",
+    equationName: "Just In Time System (JIT)",
+    equationLink: "/week-3/jit",
   },
   {
-    equationName: "Incremental Static Regeneration",
-    equationLink: "/week-1/growing-annuity",
+    equationName: "Cash",
+    equationLink: "/week-3/cash",
   },
   {
-    equationName: "Ordinary Annuity",
-    equationLink: "/week-1/ordinary-annuity",
+    equationName: "Accounts Receivable",
+    equationLink: "/week-3/accounts-receivable",
   },
   {
-    equationName: "Perpetual Annuity",
-    equationLink: "/week-1/perpetual-annuity",
+    equationName: "Factoring",
+    equationLink: "/week-3/factoring",
   },
-  { equationName: "Growing Annuity", equationLink: "/week-1/growing-annuity" },
+];
+const weekFourEquations: EquationList[] = [
+  {
+    equationName: "Risk-Return Relationship",
+    equationLink: "/week-4/risk-return-relationship",
+  },
+  {
+    equationName: "Correlation Coefficient",
+    equationLink: "/week-4/correlation-coefficient",
+  },
+  {
+    equationName: "Diversifiable vs Non-Diversifiable risk",
+    equationLink: "/week-4/diversifiable-vs-non-diversifiable-risk",
+  },
+  {
+    equationName: "Markowitz Frontier (Portfolio Theory 1)",
+    equationLink: "/week-4/markowitz-frontier",
+  },
+  {
+    equationName: "Utility Theory",
+    equationLink: "/week-4/utility-theory",
+  },
+];
+const weekFiveEquations: EquationList[] = [
+  {
+    equationName: "Risk-free Asset",
+    equationLink: "/week-5/risk-free-asset",
+  },
+  {
+    equationName: "Capital Market Line",
+    equationLink: "/week-5/cml",
+  },
+  {
+    equationName: "Total Risk and Diversification",
+    equationLink: "/week-5/total-risk-and-diversification",
+  },
+  {
+    equationName: "Security Market Line",
+    equationLink: "/week-5/security-market-line",
+  },
+  {
+    equationName: "Capital Asset Pricing Model",
+    equationLink: "/week-5/capm",
+  },
 ];
 
 const weekEquations: WeekEquations[] = [
   { week: "Week 1", equations: weekOneEquations },
   { week: "Week 2", equations: weekTwoEquations },
   { week: "Week 3", equations: weekThreeEquations },
+  { week: "Week 4", equations: weekFourEquations},
+  { week: "Week 5", equations: weekFiveEquations}
 ];
 
 export default function Home() {
@@ -143,6 +188,7 @@ export default function Home() {
                   <path
                     d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
                     fill="#3A0CA3"
+                    className="dark:fill-[#cae9ff]"
                   />
                 </svg>
               </Link>
@@ -161,6 +207,7 @@ export default function Home() {
                   <path
                     d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
                     fill="#3A0CA3"
+                    className="dark:fill-[#cae9ff]"
                   />
                 </svg>
               </Link>
