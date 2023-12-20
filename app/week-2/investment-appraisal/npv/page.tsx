@@ -22,16 +22,13 @@ const NPV = () => {
                             <mark>Net Present Value (NPV)</mark>
                             <br/>
                             <br/>
-                            NPV is the total present values of each of a project's vash
+                            NPV is the total present values of each of a project's cash
                             flows (using a prsent value discounting factor) less the initial 
                             investment. 
                             <br/>
                             <br/>
                             The NPV rule states that managers increase shareholders' wealth
-                            by taking on projects that are worth more than they cost. 
-                            <br/>
-                            <br/>
-                            Hence, they should accept all projects with a positive NPV. 
+                            by taking on projects that are worth more than they cost. (Accept all projects with a positive NPV.) 
                             <br/>
                             <br/>
                             <mark>NPV Decision Rule</mark>

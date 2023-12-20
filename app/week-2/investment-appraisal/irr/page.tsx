@@ -29,6 +29,30 @@ const IRR = () => {
                             equals zero.  
                             <br/>
                             <br/>
+                            The IRR should exceed the cost of capital to the organisation. E.g if 
+                            a company is paying a 7% cost of capital (to borrow money) then an IRR of 
+                            6% would make the project unprofitable. 
+                            <br/>
+                            <br/>
+                            We always need to get to 0 when using IRR. IRR is used to determine if 
+                            a project is profitable for the company. It is guess work and is often calculated
+                            using an algorithm. 
+                            <br/>
+                            <br/>
+                            In IRR we are trying to find the specific discount rate that makes the NPV
+                            equal zero. 
+                            <br/>
+                            <br/>
+                            The IRR is the rate that produces a 0 NPV. When we have a 0 NPV we have a 
+                            break even point. When the IRR exceeds cost of capital the project will make money 
+                            because the NPV is is positive.     
+                            <br/>
+                            <br/>
+                            A higher IRR than the cost of capital indicates that the project is 
+                            expected to generate returns greater than the cost of financing the operation.
+                            The opposite is true when the IRR is lower than the cost of capital.
+                            <br/>
+                            <br/>
                             <mark>IRR Decision Rule</mark>
                             <br/>
                             <br/>
