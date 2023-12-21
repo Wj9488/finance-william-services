@@ -108,15 +108,25 @@ const NPV = () => {
                             <br/>
                             - Considers all cashflows of projects.
                             <br/>
-                            - Allows for time value of money. 
+                            - Uses relevant cashflows
                             <br/>
-                            - Gives an absolute measure, allowing for comparison of projects.
+                            - Allows for time value of money. Discounting cash flows to present value 
+                            takes account of the impact of risk over time, interest and inflation.
+                            <br/>
+                            - Gives an absolute measure, allowing for comparison of projects. The NPV
+                            of an investment represents the actual surplus raised by the project. This 
+                            allows businesses to plan more effectively.
                             <br/>
                             - It is directly related to the objective of maximising 
-                            shareholder wealth. 
+                            shareholder wealth. If the cost of capital reflects the shareholder's required
+                            rate of return, then the NPV reflects their theoretical increase in wealth. For 
+                            a company, this is considered to be the primary objective of the business (making shareholders richer). 
                             <br/>
                             - It is practical and easy to use once anticipated cashflows have 
                             been identified (something that is hard in reality)
+                            <br/>
+                            - All relevant, measurable financial information concerning decision making is taken 
+                            into account. 
                             <br/>
                             - It gives a clear and unambigious signal to the decision maker.
                             <br/>
@@ -126,11 +136,15 @@ const NPV = () => {
                             <br/>
                             - Difficulty obtaining all relevant costs/benefits. 
                             <br/>
-                            - Difficult to calculate and to explain to managers. 
+                            - Difficult to calculate and to explain to managers, because the understanding of the 
+                            NPV method requires understanding of discounting. The NPV method is not intuitive like the 
+                            payback period method. This might mean the NPV is ignored in favour of more easily understood 
+                            methods. 
                             <br/>
                             - Assumes cashflows occur at annual intervals. 
                             <br/>
-                            - The need to estimate a cost of capital.
+                            - The need to estimate a cost of capital which is complicated in practice. It requires gathering
+                            and analysing data.
                             "
                         />
                     </EquationSectionWrapper>

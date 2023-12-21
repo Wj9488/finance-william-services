@@ -21,6 +21,15 @@ mark{
     border-bottom: 2px solid #fafafa;
 }
 
+@media screen and (max-width: 800px) {
+    .border_bottom {
+        border-bottom: 1px solid #070707;
+    }
+    .dark .border_bottom {
+        border-bottom: 1px solid #fafafa;
+    }
+}
+
 .dark mark {
     background-color: #424242;
     color: #ebebeb;

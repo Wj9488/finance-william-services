@@ -73,7 +73,9 @@ const IRR = () => {
                             <br/>
                             - Considers all cashflows of projects.
                             <br/>
-                            - Is a percentage and is therefore easily understood. 
+                            - Is a percentage and is therefore easily understood.
+                            <br/>
+                            - All relevant information about the decision is taken into account by IRR 
                             <br/>
                             - A company selecting projects where the IRR exceeds the 
                             cost of capital should increase shareholders' wealth.
@@ -86,7 +88,10 @@ const IRR = () => {
                             <br/>
                             - May conflict with NPV decision. 
                             <br/>
-                            - Non-conventional cashflows may give rise to no IRR or multiple IRRs. 
+                            - Non-conventional cashflows may give rise to no IRR or multiple IRRs (More than one 
+                            change in the direction of inflows and outflows). Even if an IRR is determined
+                            , the decision rule may lead to the wrong result as the project may not even return a positive
+                            NPV at any cost of capital. 
                             <br/>
                             - Fails to recognise value; it is only concerned with percentage returns.
                             <br/>
@@ -110,7 +115,8 @@ const IRR = () => {
                             <br/>
                             <br/>
                             - IRR, on the other hand, is a relative measure, and it will rank projects
-                            offering higher return regardless of the total value added. 
+                            offering higher return regardless of the total value added. (Does not factor in the scale
+                                of a project's return, only concerned with percentage return). 
                             "
                         />
                     </EquationSectionWrapper>
