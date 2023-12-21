@@ -28,6 +28,7 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
         exit={{ translateY: "-100%" }}
         transition={{
           duration: .75,
+          delay: 0.1,
           ease: [0.85, 0, 0.15, 1],
         }}
         style={{
@@ -45,6 +46,7 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
         exit={{ rotate: "45deg", }}
         transition={{
           duration: .25,
+          delay: 0.1,
           ease: [0.85, 0, 0.15, 1],
         }}
         className="w-[15px] h-[15px] lg:w-[30px] lg:h-[30px] bg-[#070707] dark:bg-[#fafafa]">

@@ -9,6 +9,8 @@ sup, sub {
 mark{
     background-color: #ebebeb;
     color: #070707;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 

@@ -136,23 +136,57 @@ const weekFiveEquations: EquationList[] = [
     equationLink: "/week-5/capm",
   },
 ];
+const ReadingWeek: EquationList[] = [
+  {
+    equationName: "Reading Week",
+    equationLink: "/#?reading-week",
+  },
+]
+const weekSixEquations: EquationList[] = [
+  {
+    equationName: "Understanding Risk",
+    equationLink: "/week-7/understanding-risk",
+  },
+  {
+    equationName: "Risk Management",
+    equationLink: "/week-7/risk-management",
+  },
+  {
+    equationName: "Non-Hedging Strategies",
+    equationLink: "/week-7/risk-management/non-hedging-strategies",
+  },
+  {
+    equationName: "Hedging Strategies",
+    equationLink: "/week-7/risk-management/hedging-strategies",
+  },
+  {
+    equationName: "Financial Derivatives",
+    equationLink: "/week-7/financial-derivatives",
+  },
+];
+
 
 const weekEquations: WeekEquations[] = [
   { week: "Week 1", equations: weekOneEquations },
   { week: "Week 2", equations: weekTwoEquations },
   { week: "Week 3", equations: weekThreeEquations },
   { week: "Week 4", equations: weekFourEquations},
-  { week: "Week 5", equations: weekFiveEquations}
+  { week: "Week 5", equations: weekFiveEquations},
+  { week: "Week 6 //", equations: ReadingWeek},
+  { week: "Week 7", equations: weekSixEquations}
 ];
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState<string>("");
 
-  const equationSearchData: EquationList[] = [
-    ...weekOneEquations,
-    ...weekTwoEquations,
-    ...weekThreeEquations,
-  ];
+  // const equationSearchData: EquationList[] = [
+  //   ...weekOneEquations,
+  //   ...weekTwoEquations,
+  //   ...weekThreeEquations,
+  //   ...weekFourEquations,
+  //   ...weekFiveEquations,
+  //   ...weekSixEquations,
+  // ];
 
   const filteredWeeks: WeekEquations[] = weekEquations
     .map((week) => ({

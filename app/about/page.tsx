@@ -5,8 +5,10 @@ import Link from "next/link";
 import Transition from "@/Components/utils/Transition";
 import BackButton from "@/Components/Reusable/BackButton";
 import GenericPageWrapper from "@/Components/Reusable/GenericPageWrapper";
+import { motion as anim } from "framer-motion";
 
 const AboutPage = () => {
+
   return (
     <>
       <Transition>
@@ -16,12 +18,29 @@ const AboutPage = () => {
             <BackButton />
             <div className="lg:w-1/2 lg:my-0 my-[5rem]">
               <p>
-                This website was built by a finance for managers student to
-                provide revision material for students. Every equation on this
-                website has an accompanying calculator. 
-                Should you discover an issue with the website
-                or just have questions feel free to <Link className="underline" href={"/contact"}>contact me</Link>.
+                This website is not associated with the University of Exeter.
+                It was built by a student and is designed to help you revise
+                for part B of the BEA3008 Finance For Managers final exam. Should you discover an
+                issue with the website or just have questions feel free to{" "}
+                <Link className="underline" href={"/contact"}>
+                  contact me
+                </Link>
+                .
               </p>
+              <div className="flex items-center justify-center mt-[5rem]">
+              
+              <anim.div
+                className="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] bg-[#070707] dark:bg-[#fafafa]"
+                initial={{ rotate: "0deg", y: 0 }}
+                animate={{ rotate: "45deg", y: -300 }}
+                exit={{ rotate: "45deg", }}
+                transition={{
+                  duration: .75,
+                  delay: 0.65,
+                  ease: [0.85, 0, 0.15, 1],
+                }}
+              ></anim.div>
+              </div>
             </div>
             <div className="">
               <Link
