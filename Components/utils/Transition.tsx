@@ -6,7 +6,7 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setBorderRadius(window.innerWidth < 800 ? "50%" : "100%");
+      setBorderRadius(window.innerWidth < 800 ? "75%" : "100%");
     };
 
     // Set the initial value
@@ -22,7 +22,7 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
   return (
     <AnimatePresence>
       <anim.div
-        className="bg-[#fafafa] dark:bg-[#EE4E34] border_bottom flex items-center justify-center"
+        className="bg-[#fafafa] dark:bg-[#070707] border_bottom flex items-center justify-center"
         initial={{ translateY: "0%"  }}
         animate={{ translateY: "-100%", borderRadius: borderRadius }}
         exit={{ translateY: "-100%" }}
@@ -47,7 +47,7 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
           duration: .25,
           ease: [0.85, 0, 0.15, 1],
         }}
-        className="w-[30px] h-[30px] bg-[#070707]">
+        className="w-[15px] h-[15px] lg:w-[30px] lg:h-[30px] bg-[#070707] dark:bg-[#fafafa]">
         </anim.div>
       </anim.div>
       <anim.div

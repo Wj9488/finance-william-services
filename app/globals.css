@@ -11,11 +11,12 @@ mark{
     color: #070707;
 }
 
-.border_bottom .dark {
-    border-bottom: 2px solid #fafafa;
-}
+
 .border_bottom {
     border-bottom: 2px solid #070707;
+}
+.dark .border_bottom {
+    border-bottom: 2px solid #fafafa;
 }
 
 .dark mark {
