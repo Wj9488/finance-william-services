@@ -187,8 +187,8 @@ export default function Home() {
                 >
                   <path
                     d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
-                    fill="#3A0CA3"
-                    className="dark:fill-[#cae9ff]"
+                    fill="#070707"
+                    className="dark:fill-[#ebebeb]"
                   />
                 </svg>
               </Link>
@@ -206,8 +206,8 @@ export default function Home() {
                 >
                   <path
                     d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
-                    fill="#3A0CA3"
-                    className="dark:fill-[#cae9ff]"
+                    fill="#070707"
+                    className="dark:fill-[#ebebeb]"
                   />
                 </svg>
               </Link>
@@ -216,7 +216,7 @@ export default function Home() {
               <p>Find Content</p>
               <input
                 type="text"
-                className="outline-none bg-transparent placeholder:opacity-35 text-[#390ca376] dark:text-[#cae9ff]"
+                className="outline-none bg-transparent placeholder:opacity-35 text-[#070707] dark:text-[#ebebeb] placeholder-[#07070786] dark:placeholder-[#ebebeb85]"
                 placeholder="Type here..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}

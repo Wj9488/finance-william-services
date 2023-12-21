@@ -8,11 +8,19 @@ sup, sub {
 
 mark{
     background-color: #ebebeb;
+    color: #070707;
+}
+
+.border_bottom .dark {
+    border-bottom: 2px solid #fafafa;
+}
+.border_bottom {
+    border-bottom: 2px solid #070707;
 }
 
 .dark mark {
     background-color: #424242;
-    color: #cae9ff;
+    color: #ebebeb;
 }
 
 .calc_input {
@@ -37,7 +45,7 @@ mark{
 }
 .calc_button:hover {
     opacity: .5;
-    border-top: 1px solid #3a0ca3;
+    border-top: 1px solid #ebebeb;
 }
 
 code {
@@ -46,7 +54,7 @@ code {
 }
 
 .dark input {
-    color: #cae9ff;
+    color: #ebebeb;
 }
 .dark code {
     background-color: rgb(35, 35, 35);
