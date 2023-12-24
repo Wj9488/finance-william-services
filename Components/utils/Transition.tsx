@@ -32,8 +32,9 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
           ease: [0.85, 0, 0.15, 1],
         }}
         style={{
-          position: "absolute",
+          position: "fixed",
           left: 0,
+          top: 0,
           width: "100%",
           height: "100%",
           zIndex: "10",

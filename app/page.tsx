@@ -141,7 +141,7 @@ const ReadingWeek: EquationList[] = [
     equationName: "Reading Week",
     equationLink: "/#?reading-week",
   },
-]
+];
 const weekSixEquations: EquationList[] = [
   {
     equationName: "Understanding Risk",
@@ -165,15 +165,14 @@ const weekSixEquations: EquationList[] = [
   },
 ];
 
-
 const weekEquations: WeekEquations[] = [
   { week: "Week 1", equations: weekOneEquations },
   { week: "Week 2", equations: weekTwoEquations },
   { week: "Week 3", equations: weekThreeEquations },
-  { week: "Week 4", equations: weekFourEquations},
-  { week: "Week 5", equations: weekFiveEquations},
-  { week: "Week 6 //", equations: ReadingWeek},
-  { week: "Week 7", equations: weekSixEquations}
+  { week: "Week 4", equations: weekFourEquations },
+  { week: "Week 5", equations: weekFiveEquations },
+  { week: "Week 6 //", equations: ReadingWeek },
+  { week: "Week 7", equations: weekSixEquations },
 ];
 
 export default function Home() {
