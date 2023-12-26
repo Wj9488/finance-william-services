@@ -164,6 +164,29 @@ const weekSixEquations: EquationList[] = [
     equationLink: "/week-7/financial-derivatives",
   },
 ];
+const weekEightEquations: EquationList[] = [
+  {
+    equationName: "Why firms need finance and sources of finance",
+    equationLink: "/week-8/why-firms-need-finance-and-sources-of-finance?osh=true",
+  },
+  {
+    equationName: "Ordinary Shares (Equity Capital)",
+    equationLink: "/week-8/ordinary-shares?osh=true",
+  },
+  {
+    equationName: "Preference Shares",
+    equationLink: "/week-8/preference-shares?osh=true",
+  },
+  {
+    equationName: "Financial Debt Capital",
+    equationLink: "/week-8/financial-debt-capital",
+  },
+  {
+    equationName: "Cost of Capital",
+    equationLink: "/week-8/cost-of-capital",
+  },
+];
+
 
 const weekEquations: WeekEquations[] = [
   { week: "Week 1", equations: weekOneEquations },
@@ -173,6 +196,7 @@ const weekEquations: WeekEquations[] = [
   { week: "Week 5", equations: weekFiveEquations },
   { week: "Week 6 //", equations: ReadingWeek },
   { week: "Week 7", equations: weekSixEquations },
+  { week: "Week 8", equations: weekEightEquations },
 ];
 
 export default function Home() {
