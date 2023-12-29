@@ -185,6 +185,10 @@ const weekEightEquations: EquationList[] = [
     equationName: "Cost of Capital",
     equationLink: "/week-8/cost-of-capital",
   },
+  {
+    equationName: "Factors affecting cost of capital.",
+    equationLink: "/week-8/factors-affecting-cost-of-capital",
+  },
 ];
 
 

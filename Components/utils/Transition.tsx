@@ -21,7 +21,7 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <AnimatePresence>
-      <anim.div
+      {/* <anim.div
         className="bg-[#fafafa] dark:bg-[#070707] border_bottom flex items-center justify-center"
         initial={{ translateY: "0%"  }}
         animate={{ translateY: "-100%", borderRadius: borderRadius }}
@@ -52,14 +52,14 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
         }}
         className="w-[15px] h-[15px] lg:w-[30px] lg:h-[30px] bg-[#070707] dark:bg-[#fafafa]">
         </anim.div>
-      </anim.div>
+      </anim.div> */}
       <anim.div
-        initial={{ opacity: 0, y: 10 }}
+        initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 0}}
         transition={{
           duration: 0.5,
-          delay: 0.25,
+          delay: 0,
           ease: [0.85, 0, 0.15, 1],
         }}
         className="overflow-hidden"

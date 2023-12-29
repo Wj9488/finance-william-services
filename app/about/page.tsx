@@ -36,7 +36,7 @@ const AboutPage = () => {
                 exit={{ rotate: "45deg", }}
                 transition={{
                   duration: .75,
-                  delay: 0.65,
+                  delay: 0,
                   ease: [0.85, 0, 0.15, 1],
                 }}
               ></anim.div>
