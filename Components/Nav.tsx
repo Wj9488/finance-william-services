@@ -116,7 +116,7 @@ const Nav = () => {
     return `${twelveHour}:${formattedMinutes}${ampm}`;
   }
   return (
-    <nav className='transition-colors duration-200 ease-in-out z-10 fixed top-0 lg:top-2 lg:right-4 bg-[inherit] dark:bg-[#161616] pl-2 lg:mt-0 lg:py-0 py-1'>
+    <nav className='transition-colors duration-200 ease-in-out z-10 fixed top-0 lg:top-2 lg:right-4 bg-[inherit] dark:bg-[#161616] pr-2 lg:pl-2 lg:mt-0 lg:py-0 py-1'>
       <div className="flex items-center justify-around gap-2">
       <p
             className=" dark:text-neutral-200 hover:cursor-pointer min-w-[1.5rem]"

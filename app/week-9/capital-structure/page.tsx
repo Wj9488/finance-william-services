@@ -63,7 +63,7 @@ const CapitalStructure = () => {
                             value of its expected net operating income. 
                             <br/>
                             <br/> 
-                            In the presence of corporate taxation, the marekt value ofa  levered firm 
+                            In the presence of corporate taxation, the market value of a levered firm 
                             exceeds the value of the equivalent unlevered firm by an amount equal to the market 
                             value of its debt multiplied by the corporation tax rate it faces. 
                             <br/> 
