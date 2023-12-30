@@ -60,7 +60,8 @@ const Transition = ({ children }: { children: React.ReactNode }) => {
         transition={{
           duration: 0.5,
           delay: 0,
-          ease: [0.85, 0, 0.15, 1],
+          // ease: [0.85, 0, 0.15, 1],
+          ease: "easeInOut"
         }}
         className="overflow-hidden"
       >

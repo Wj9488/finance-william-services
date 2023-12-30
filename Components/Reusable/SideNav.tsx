@@ -27,7 +27,7 @@ const SideNav = () => {
             <path
               d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
               fill="#070707"
-              className="dark:fill-[#ebebeb]"
+              className="dark:fill-[#dad7cd]"
             />
           </svg>
         </Link>
@@ -46,7 +46,7 @@ const SideNav = () => {
             <path
               d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
               fill="#070707"
-              className="dark:fill-[#ebebeb]"
+              className="dark:fill-[#dad7cd]"
             />
           </svg>
         </Link>
@@ -75,7 +75,7 @@ const SideNav = () => {
             <path
               d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
               fill="#070707"
-              className="dark:fill-[#ebebeb]"
+              className="dark:fill-[#dad7cd]"
             />
           </svg>
         </Link>

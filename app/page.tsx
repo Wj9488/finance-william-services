@@ -163,6 +163,10 @@ const weekSixEquations: EquationList[] = [
     equationName: "Financial Derivatives",
     equationLink: "/week-7/financial-derivatives",
   },
+  {
+    equationName: "Options",
+    equationLink: "/week-7/options",
+  },
 ];
 const weekEightEquations: EquationList[] = [
   {
@@ -190,7 +194,20 @@ const weekEightEquations: EquationList[] = [
     equationLink: "/week-8/factors-affecting-cost-of-capital",
   },
 ];
-
+const weekNineEquations: EquationList[] = [
+  {
+    equationName: "Gearing, Leverage and Bankruptcy",
+    equationLink: "/week-9/gearing-leverage-bankruptcy?osh=true",
+  },
+  {
+    equationName: "Capital Structure",
+    equationLink: "/week-9/capital-structure",
+  },
+  {
+    equationName: "Capital Structure Continued",
+    equationLink: "/week-9/capital-structure-continued",
+  },
+]
 
 const weekEquations: WeekEquations[] = [
   { week: "Week 1", equations: weekOneEquations },
@@ -201,6 +218,7 @@ const weekEquations: WeekEquations[] = [
   { week: "Week 6 //", equations: ReadingWeek },
   { week: "Week 7", equations: weekSixEquations },
   { week: "Week 8", equations: weekEightEquations },
+  { week: "Week 9", equations: weekNineEquations}
 ];
 
 export default function Home() {
@@ -277,7 +295,7 @@ export default function Home() {
               <p>Find Content</p>
               <input
                 type="text"
-                className="outline-none bg-transparent placeholder:opacity-35 text-[#070707] dark:text-[#ebebeb] placeholder-[#07070786] dark:placeholder-[#ebebeb85]"
+                className="outline-none bg-transparent placeholder:opacity-35 text-[#fb5607] dark:text-[#fb5607] placeholder-[#07070786] dark:placeholder-[#ebebeb85]"
                 placeholder="Type here..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}

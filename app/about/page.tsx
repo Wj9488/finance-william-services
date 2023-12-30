@@ -13,14 +13,14 @@ const AboutPage = () => {
     <>
       <Transition>
         <main>
-          <Header pageHeading="About" pageSubheading="BEA3008" />
+          <Header pageHeading="About" pageSubheading="Purpose" />
           <GenericPageWrapper>
             <BackButton />
             <div className="lg:w-1/2 lg:my-0 my-[5rem]">
               <p>
-                This website is not associated with the University of Exeter.
-                It was built by a student and is designed to help you revise
-                for part B of the BEA3008 Finance For Managers final exam. Should you discover an
+                This website is not associated with the University of Exeter and 
+                there could be mistakes in the content on this website. Please check content 
+                using the official lecture slides as you go. Content covers Part B of the BEA3008 Finance For Managers final exam. Should you discover an
                 issue with the website or just have questions feel free to{" "}
                 <Link className="underline" href={"/contact"}>
                   contact me
@@ -30,9 +30,9 @@ const AboutPage = () => {
               <div className="flex items-center justify-center mt-[5rem]">
               
               <anim.div
-                className="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] bg-[#070707] dark:bg-[#fafafa]"
+                className="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] bg-[#070707] dark:bg-[#dad7cd]"
                 initial={{ rotate: "0deg", y: 0 }}
-                animate={{ rotate: "45deg", y: -300 }}
+                animate={{ rotate: "45deg", y: -350 }}
                 exit={{ rotate: "45deg", }}
                 transition={{
                   duration: .75,
@@ -42,7 +42,7 @@ const AboutPage = () => {
               ></anim.div>
               </div>
             </div>
-            <div className="">
+            <div className="mb-[5rem]">
               <Link
                 className="hover:opacity-50 transition-all duration-200 flex items-center gap-1"
                 href={"/contact"}
@@ -58,7 +58,7 @@ const AboutPage = () => {
                   <path
                     d="M9.50045 8.36074L8.5784 8.36676L8.5784 4.54598L3.63066 9.49372L2.96775 8.8308L7.91549 3.88306L4.10073 3.88909V2.96101H9.50045V8.36074Z"
                     fill="#070707"
-                    className="dark:fill-[#ebebeb]"
+                    className="dark:fill-[#dad7cd]"
                   />
                 </svg>
               </Link>
