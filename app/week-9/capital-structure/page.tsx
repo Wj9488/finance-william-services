@@ -94,6 +94,9 @@ const CapitalStructure = () => {
                             <a href='https://ele.exeter.ac.uk/pluginfile.php/2163255/mod_resource/content/2/BEA3008%20-%20May%202019%20Questions.pdf' target='_blank' class='hover:opacity-50 transition-all duration-200' style='color:#fb5607'>Exam Paper Link (2019)</a>
                             <br/>
                             <br/>
+                            <span style='text-decoration: underline;'>Q: Explain what is meant by the Pecking-order theory and how it relates to observed capital structure of companies (13 marks).</span>
+                            <br/>
+                            <br/> 
                             The pecking order theory states that firms prefer to issue debt rather than equity if 
                             internal finance is insufficient. Myers and Malijuf (1984) provide justification for the Pecking 
                             order that is based on asymmetric information. They make two assumptions about managers: 
@@ -158,6 +161,81 @@ const CapitalStructure = () => {
                                 only then, if positive NPV projects still remain to be financed, issue equity. 
                                 <br/>
                             <br/>
+                            <mark>Pecking order theory & signalling explained</mark>
+                            <br/>
+                            <br/>
+                            Signalling could affect the company positively or negatively.
+                            <br/>
+                            <br/>
+                            Manager's are assumed to have more information than debt or equity holders. Therefore
+                            these individuals rely on 'signals' from managers to inform their decisions. 
+                            <br/>
+                            <br/>
+                            Directors should use retained earnings if possible, as this gives no signal
+                            to outsiders about company status. This negates the impact of positive or negative 
+                            signals. 
+                            <br/>
+                            <br/>
+                            <mark>Signals from debt issuance</mark>
+                            <br/>
+                            <br/>
+                            When this is not possible, managers should take on debt to finance positive NPV projects.
+                            Before a lender lends money to a business, they will assess the chance that the company will default on the debt
+                            (not be able to pay it back). The lender might underestimate the chance of default and give 
+                            the business cheap debt. In this case managers will want to issue more debt to take advantage of cheapness.
+                            <br/>
+                            <br/>
+                            Lenders will then this signal and interpret that managers see the cost of debt as cheap because the risk 
+                            of default has been underestimated. Financial markets will then revise its view of the perceived risk of 
+                            defualt and raise the company's cost of debt. 
+                            <br/>
+                            <br/>
+                            Suppose that management believe that the cost of debt is too expensive because lenders 
+                            overestimated the risk of default. Managers will not want to issue any new debt and will instead
+                            prefer to issue equity.
+                            <br/>
+                            <br/>
+                            <mark>Signalling from new equity issuance</mark>
+                            <br/>
+                            <br/>
+                            Managers would like to raise new equity finance when their shares are highly priced because 
+                            this will be more advantageous for the company. However, managers would prefer to issue debt when the 
+                            share price is low.
+                            <br/>
+                            <br/>
+                            The decision by companies to take the timing factor into account may be very sensible because of 
+                            the presence of 'asymmetrical information' (managers know more than outsiders).
+                            <br/>
+                            <br/>
+                            'Market Timing Theory' - Baker and Wurgler (2002). 
+                            <br/>
+                            <br/>
+                            This theory argues that equity market timing has a persistent effect on the capital structure
+                            of the firm and conclude that the capital structure of the firm is the cumulative outcome
+                            of past attempts to time the equity market. 
+                            <br/>
+                            <br/>
+                            Thus, management may be able to correctly identify situations where the stock market is 
+                            mispricing the company's shares (could be overvaluing or undervaluing). 
+                            <br/>
+                            <br/>
+                            This is where the signal lies. If a company is issuing new equity, financial markets identify 
+                            this signal and believe that the new shares are overvalued and as a result the share price 
+                            will fall.
+                            <br/>
+                            <br/>
+                            Alternatively, if a company is issuing debt, financial markets identify this signal and the share 
+                            price might rise because investors think the managers believe the company to be undervalued.  
+                            <br/>
+                            <br/>
+                            <mark>The financing dilemma (Pecking Order Theory Solution)</mark>
+                            <br/>
+                            <br/>
+                            Managers face a dilemma, both types of issuance above cause the share price to move up or down. 
+                            <br/>
+                            <br/>
+                            <mark>The solution proposed by Pecking Order Theory is to rely as much as possible on retained earnings and 
+                            so avoid the possibility of adverse signals being released into the market by issuing debt or equity.</mark>
                             "
                         />
                     </EquationSectionWrapper>

@@ -92,6 +92,9 @@ const CapitalStructureCont = () => {
                             trading on their insider information; otherwise, they may falsely signal the market in order to create
                             opportunity to trade. E.g the managers of a high-quality firm may signal that it is low quality and then
                             buy undervalued shares to enrich themselves. 
+                            <br/>
+                            <br/>
+                            
                             "
                         />
                     </EquationSectionWrapper>
