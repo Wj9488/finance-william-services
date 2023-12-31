@@ -215,7 +215,7 @@ const weekEquations: WeekEquations[] = [
   { week: "Week 3", equations: weekThreeEquations },
   { week: "Week 4", equations: weekFourEquations },
   { week: "Week 5", equations: weekFiveEquations },
-  { week: "Week 6 //", equations: ReadingWeek },
+  { week: "Week 6", equations: ReadingWeek },
   { week: "Week 7", equations: weekSixEquations },
   { week: "Week 8", equations: weekEightEquations },
   { week: "Week 9", equations: weekNineEquations}
@@ -306,7 +306,7 @@ export default function Home() {
                 {filteredWeeks.length > 0 ? (
                   filteredWeeks.map((week, weekIndex) => (
                     <div key={weekIndex}>
-                      <p className="">{week.week}</p>
+                      <p className="text-[#fb5607] underline">{week.week}</p>
                       <ul className="ml-8">
                         {week.equations.map((equation, equationIndex) => (
                           <li key={equationIndex}>

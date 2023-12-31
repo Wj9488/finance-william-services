@@ -30,7 +30,7 @@ const AboutPage = () => {
               <div className="flex items-center justify-center mt-[5rem]">
               
               <anim.div
-                className="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] bg-[#070707] dark:bg-[#dad7cd]"
+                className="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] bg-[#fb5607] dark:bg-[#fb5607]"
                 initial={{ rotate: "0deg", y: 0 }}
                 animate={{ rotate: "45deg", y: -350 }}
                 exit={{ rotate: "45deg", }}
