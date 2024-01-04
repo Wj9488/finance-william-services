@@ -208,6 +208,28 @@ const weekNineEquations: EquationList[] = [
     equationLink: "/week-9/capital-structure-continued",
   },
 ]
+const weekTenEquations: EquationList[] = [
+  {
+    equationName: "Dividend Policy",
+    equationLink: "/week-10/dividend-policy",
+  },
+  {
+    equationName: "Dividend Irrelevance Theory",
+    equationLink: "/week-10/mm-dividend-irrelevance",
+  },
+  {
+    equationName: "Dividend Relevance Theory",
+    equationLink: "/week-10/dividend-relevance",
+  },
+  {
+    equationName: "Dividend Policy in Practice",
+    equationLink: "/week-10/dividend-policy-in-practice",
+  },
+  {
+    equationName: "Efficient Market Hypothesis",
+    equationLink: "/week-10/efficient-market-hypothesis",
+  },
+]
 
 const weekEquations: WeekEquations[] = [
   { week: "Week 1", equations: weekOneEquations },
@@ -218,7 +240,8 @@ const weekEquations: WeekEquations[] = [
   { week: "Week 6", equations: ReadingWeek },
   { week: "Week 7", equations: weekSixEquations },
   { week: "Week 8", equations: weekEightEquations },
-  { week: "Week 9", equations: weekNineEquations}
+  { week: "Week 9", equations: weekNineEquations},
+  { week: "Week 10", equations: weekTenEquations}
 ];
 
 export default function Home() {
