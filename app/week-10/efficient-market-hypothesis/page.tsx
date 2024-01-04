@@ -260,6 +260,49 @@ const EfficientMarket = () => {
                             <br/>
                             Tested by studies based on observing market participants who might reasonably be expected to have access to private information, 
                             or those with the expertise and resources to generate such.
+                            <br/>
+                            <br/>
+                            If such participants can consistently earn excess returns, then the market cannot be considered as a Strong Form of EMH.
+                            <br/>
+                            <br/>
+                            <mark>Testing Strong Form EMH</mark>
+                            <br/>
+                            <br/>
+                            Unlike weak and semi-strong forms, directly testing the Strong form efficiency is extremely hard. 
+                            <br/>
+                            <br/>
+                            Insider trading is banned in most countries.
+                            <br/>
+                            <br/>
+                            Bans on insider trading mean direct testing is impossible. It also suggests stock markets might not be strong form efficient.
+                            <br/>
+                            <br/>
+                            <mark>Test Managed Funds</mark>: Absence of excess returns to managed funds would be evidence supporting Strong Form EMH.
+                            <br/>
+                            <br/>
+                            <mark>Test Company Insiders</mark>: Insider trading laws require insider trading to be registered publicly. In theory, insiders
+                            are expected to buy shares before any price rises and sell shares before any price falls. 
+                            <br/>
+                            <br/>
+                            <mark>Test Financial Analysts</mark>: Analysts tend to have greater access to insider information, however their recommendations 
+                            are not necessarily made public. It may therefore be possible for investors to make outsized returns based on their predictions.
+                            <br/>
+                            <br/>
+                            <mark>Strong Form Empirical Findings</mark>
+                            <br/>
+                            <br/>
+                            Empirical research findings generally do not support the strong form. 
+                            <br/>
+                            <br/>
+                            It should be noted that there has not been any direct test, while indirect tests may not be empirically robust.
+                            <br/>
+                            <br/>
+                            Anecdotal evidence, however, overwhelmingly suggests that insiders can make abnormal profits by trading on insider 
+                            or non public information. 
+                            <br/>
+                            <br/>
+                            Indeed, the fact that insider trading is banned implies that insider trading can make excess profits, and as such, 
+                            the Strong Form EMH can be rejected.
                             "
                         />
                     </EquationSectionWrapper>

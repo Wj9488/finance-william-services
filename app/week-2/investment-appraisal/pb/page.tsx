@@ -39,23 +39,6 @@ const PB = () => {
                             cash flows. 
                             <br/>
                             <br/>
-                            <mark>Problems with PB</mark>:
-                            <br/>
-                            <br/>
-                            It is not concerned with increases in wealth - it promotes liquidity
-                            rather than increased value. 
-                            <br/>
-                            <br/>
-                            It ignores return after the payback period.
-                            <br/>
-                            <br/>
-                            It ignores the cost of capital and therefore the time value of money.
-                            <br/>
-                            <br/>
-                            There is objective measure as to what length of time should be set as 
-                            the minimum payback period.
-                            <br/>
-                            <br/>
                             <mark>Advantages of PB</mark>:
                             <br/>
                             <br/>
@@ -63,18 +46,35 @@ const PB = () => {
                             <br/>
                             - Easy to understand.
                             <br/>
-                            Useful in certain situations like fast changing tech environments. (E.g A quick 
-                                PB is essential when scrapping a new plant).
+                            - Useful in certain situations like fast changing tech environments. (E.g A quick 
+                            PB is essential when scrapping a new plant).
                             <br/>
-                            Improving investment conditions (attention is directed
-                                towards projects that release funds sooner)
+                            - Can also be useful if a company predicts better investment opportunities in the future. A fast 
+                            payback would mean the company has the cash to reinvest faster. 
                             <br/>
+                            - Protects against the risk of time. PB decision rule says to choose projects with the fastest payback period 
+                            meaning capital is exposed for the least amount of time possible to potential risks arising from having 
+                            cash invested in a project. (E.g unforeseen opportunity costs)
                             <br/>
                             - It favours projects with a quick return helping 
                             company growth, minimising risk and maximising liquidity.
                             <br/>
+                            - It uses cashflows instead of profits.  
                             <br/>
-                            It uses cashflows instead of profits.  
+                            <br/>
+                            <mark>Problems with PB</mark>:
+                            <br/>
+                            <br/>
+                            - It ignores return after the payback period.
+                            <br/>
+                            - It ignores the cost of capital and therefore the time value of money.
+                            <br/>
+                            - There is no objective measure as to what length of time should be set as 
+                            the minimum payback period.
+                            <br/>
+                            - Does not consider scale, and therefore might not be aligned with shareholder wealth maximisation. 
+                            Projects returning capital the fastest will be prioritised, not projects increasing shareholder wealth 
+                            the most. Therefore it is not concerned with increases in wealth and only promotes increased liquidity.
                             "
                         />
                     </EquationSectionWrapper>

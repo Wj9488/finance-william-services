@@ -229,6 +229,10 @@ const weekTenEquations: EquationList[] = [
     equationName: "Efficient Market Hypothesis",
     equationLink: "/week-10/efficient-market-hypothesis",
   },
+  {
+    equationName: "Why care about Market Efficiency?",
+    equationLink: "/week-10/market-efficiency-importance",
+  },
 ]
 
 const weekEquations: WeekEquations[] = [
