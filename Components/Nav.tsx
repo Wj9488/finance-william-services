@@ -89,9 +89,8 @@ const Nav = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setGBTime(getCurrentTime("en-GB"));
-    }, 1000); // Update every second
+    }, 1000); 
 
-    // clear the interval when the component is unmounted
     return () => clearInterval(interval);
   }, []);
 
@@ -105,7 +104,7 @@ const Nav = () => {
   function getCurrentTime(locale: string) {
     const date = new Date();
     if (locale === "fr-FR") {
-      date.setHours(date.getHours() + 1); // Adjust for French time
+      date.setHours(date.getHours() + 1); 
     }
     const hours = date.getHours();
     const minutes = date.getMinutes();

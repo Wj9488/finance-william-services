@@ -250,16 +250,6 @@ const weekEquations: WeekEquations[] = [
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState<string>("");
-
-  // const equationSearchData: EquationList[] = [
-  //   ...weekOneEquations,
-  //   ...weekTwoEquations,
-  //   ...weekThreeEquations,
-  //   ...weekFourEquations,
-  //   ...weekFiveEquations,
-  //   ...weekSixEquations,
-  // ];
-
   const filteredWeeks: WeekEquations[] = weekEquations
     .map((week) => ({
       week: week.week,
@@ -349,7 +339,7 @@ export default function Home() {
                     </div>
                   ))
                 ) : (
-                  <p>No equation found</p>
+                  <p className="">No results match your search.</p>
                 )}
               </div>
             </div>
@@ -361,4 +351,3 @@ export default function Home() {
   );
 }
 
-// Header should have static nav items like the clock, but then have dynamic items like each title.
